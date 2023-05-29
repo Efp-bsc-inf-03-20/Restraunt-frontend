@@ -1,0 +1,44 @@
+<div class="order-form">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <h2>Place Your Order</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+    </div>
+    <div class="form-group">
+      <label for="location">Location:</label>
+      <input type="text" id="location" name="location" required>
+    </div>
+    <div class="form-group">
+      <label for="food-type">Type of Food:</label>
+      <select id="food-type" name="food-type" required>
+        <option value="">Select Type of Food</option>
+        <option value="breakfast">Breakfast</option>
+        <option value="lunch">Lunch</option>
+        <option value="dinner">Dinner</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="delivery-mode">Delivery Mode:</label>
+      <select id="delivery-mode" name="delivery-mode" required>
+        <option value="">Select Delivery Mode</option>
+        <option value="self-pick">Self Pick-Up</option>
+        <option value="delivery">Delivery</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="payment-mode">Payment Mode:</label>
+      <select id="payment-mode" name="payment-mode" required>
+        <option value="">Select Payment Mode</option>
+        <option value="prepay">Prepay</option>
+        <option value="pay-later">Pay Later</option>
+      </select>
+    </div>
+    <button type="submit">Submit Order</button>
+  </form>
+</div>
